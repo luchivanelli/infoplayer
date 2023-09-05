@@ -1,5 +1,3 @@
-import { Container, Row, Col } from 'react-bootstrap'
-import img1 from '../images/nene2.png'
 import img2 from '../images/pelota.png'
 import '../styles/seccion2.css'
 

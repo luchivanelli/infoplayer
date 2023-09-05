@@ -19,8 +19,8 @@ const DatosJugador = ({datos})=> {
                         <li>Dominant leg: <b>{strSide}</b></li>
                         <li>Height: <b>{strHeight}</b></li>
                         <li>Weight: <b>{strWeight}</b></li>
-                        <li translate='no'>Twitter: <a href={strTwitter} target='_blank'><b>{strTwitter}</b></a></li>
-                        <li translate='no'>Instagram: <a href={strInstagram} target='_blank'><b>{strInstagram}</b></a></li>
+                        <li translate='no'>Twitter: <a href={`https://${strTwitter}`} target='_blank'><b>{strTwitter}</b></a></li>
+                        <li translate='no'>Instagram: <a href={`https://${strInstagram}`} target='_blank'><b>{strInstagram}</b></a></li>
                     </ul>
                     <p className='datos-precaucion'>The API may contain incorrect data</p>
                 </div>
