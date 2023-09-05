@@ -1,0 +1,43 @@
+.section-1-row {
+    padding: 20px;
+    background-color: var(--color3);
+    border: 20px solid var(--color2);
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 20px var(--color2);
+}
+
+.section-1-col {
+    padding: 10px;
+}
+
+.section-1-col p {
+    font-size: 12px !important;
+    margin-top: 30px;
+}
+
+.button {
+    border: 3px solid var(--color1);
+    border-radius: 10px;
+    padding: 5px 30px;
+    background-color: transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: all 0.5s;
+    color: var(--color2);
+}
+
+.button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button:hover {
+    background-color: var(--color1);
+    transition: all 0.3s;
+}
+
+.image {
+    max-width: 200px;
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Roboto+Slab:wght@200;300;400;500;600;700;800&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+    --color1: #05d3f8;
+    --color2: #3a3132;
+    --color3: #F5DE74;
+}
+
+body {
+    /* font-family: 'Belanosima', sans-serif; */
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background: rgb(58,49,50);
+    background: radial-gradient(circle, rgba(58,49,50,1) 0%, rgba(101,78,49,1) 50%, rgba(180,172,110,1) 100%, rgba(245,222,116,1) 100%);
+}
+
+h1 {
+    font-size: 34px !important; 
+}
+
+h2 {
+    font-size: 24px !important;
+}
+
+h3 {
+    font-size: 20px !important;
+}
+
+p {
+    font-size: 16px !important;
+}
+
+.seccion-oscura {
+    background-color: var(--color2);
+}
+
+.seccion-clara {
+    background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 38px !important;
+    }
+    
+    h2 {
+        font-size: 28px !important;
+    }
+    
+    h3 {
+        font-size: 24px !important;
+    }
+    
+    p {
+        font-size: 20px !important;
+    }
+}
