@@ -1,11 +1,26 @@
+.hidden {
+    display: none !important;
+}
+
 .datos {
-    background-image: url('../images/futbol1.avif');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.boton-cerrar {
+    background-color: transparent;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Belanosima', sans-serif;
+    padding: 5px 10px;
 }
 
 .datos-info {
@@ -74,7 +89,16 @@
 }
 
 @media screen and (min-width: 768px) {
+    .datos {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .datos-lista {
         font-size: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px 20px;
+        justify-content: center;
     }
 }

@@ -1,6 +1,11 @@
 import '../styles/datosjugador.css'
 
 const DatosJugador = ({datos})=> {
+    const cerrarModal = ()=> {
+        const boton = document.querySelector('.datos')
+        boton.classList.add('hidden')
+    }
+
     if (datos == null) {
         return (<p className='datos-error'>Player not found. Please try again</p>)
     } else {
@@ -9,6 +14,7 @@ const DatosJugador = ({datos})=> {
         return (
             <div className='datos'>
                 <div className='datos-info'>
+                    <button className='boton-cerrar' onClick={(e)=> cerrarModal(e)}>X</button>
                     <h2 className='datos-name'>{strPlayer}</h2>
                     <p className='datos-description'>{strDescriptionEN}</p>
                     <ul className='datos-lista'>

@@ -22,7 +22,10 @@ function App() {
 
   const buscar = (value)=> {
     setPlayer(value.split(' ').join('%20'))
-    console.log(datos.player)
+    const boton = document.querySelector('.datos')
+    if (boton) {
+      boton.classList.remove('hidden')
+    }
   }
 
   return (
